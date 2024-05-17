@@ -8,7 +8,7 @@ export default class Team {
   }
 
   // eslint-disable-next-line no-undef
-  [Simbol.iterator]() {
+  [Symbol.iterator]() {
     const i = 0;
     const { characters } = this;
 
