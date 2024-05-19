@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "webpack serve --open --mode development",
     "build": "webpack --mode production",
     "lint": "eslint ./src",
     "lint-fix": "eslint . --fix",
@@ -24,7 +25,8 @@
     "jest": "^29.7.0",
     "jest-babel": "^1.0.1",
     "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
     "core-js": "^3.36.1"
